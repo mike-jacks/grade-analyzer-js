@@ -1,0 +1,64 @@
+body {
+  background-color: #1f1f1f;
+  color: #f1f1f1;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f1f1f1;
+  border: 1px solid mediumturquoise;
+  border-radius: 10px;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 10px;
+  border-style: inherit;
+  background-color: mediumturquoise;
+}
+
+button:hover {
+  box-shadow: 0px 0px 10px 0px turquoise;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+table {
+  font-size: 1.4em;
+  color: aquamarine;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 4px 20px;
+  margin: 0px;
+  text-align: left;
+  padding-left: 4px;
+  padding-right: 50px;
+  border: 1px solid mediumturquoise;
+  border-radius: 10px;
+}
+
+table td:last-child {
+  text-align: right;
+  padding-right: 4px;
+  padding-left: 50px;
+}

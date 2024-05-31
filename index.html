@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./index.js"></script>
+    <title>Grade Analyzer</title>
+  </head>
+  <body>
+    <div id="container">
+      <form class="form">
+        <div class="form-input">
+          <label for="grades">Enter grade points separated by a comma:</label>
+          <input type="text" id="grades" name="grades" title="grades" />
+        </div>
+        <button type="button" onclick="gradeAnalyzer(convertUserInputToArrayOfNumbers())">Grade Analyzer</button>
+        <table id="output"></table>
+      </form>
+    </div>
+  </body>
+</html>
