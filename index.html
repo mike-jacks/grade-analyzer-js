@@ -8,15 +8,13 @@
     <title>Grade Analyzer</title>
   </head>
   <body>
-    <div id="container">
-      <form class="form">
-        <div class="form-input">
-          <label for="grades">Enter grade points separated by a comma:</label>
-          <input type="text" id="grades" name="grades" title="grades" />
-        </div>
-        <button type="button" onclick="gradeAnalyzer(convertUserInputToArrayOfNumbers())">Grade Analyzer</button>
-        <table id="output"></table>
-      </form>
-    </div>
+    <form class="form">
+      <div class="form-input">
+        <label for="grades">Enter grades separated by a comma:</label>
+        <input type="text" id="grades" name="grades" title="grades" />
+      </div>
+      <button type="button" onclick="gradeAnalyzer(convertUserInputToArrayOfNumbers())">Grade Analyzer</button>
+      <table id="output"></table>
+    </form>
   </body>
 </html>
